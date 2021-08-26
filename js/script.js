@@ -10,6 +10,7 @@ lastName.push(userLastName)
 
 lastName.sort()
 console.log(lastName);
+document.getElementById('last-name').innerHTML += lastName
 
 console.log(`La posizione di ${userLastName} nella lista di cognomi è ${lastName.indexOf(userLastName)+1}`);
-
+document.getElementById('user-last-name').innerHTML += `La posizione di "${userLastName}" nella lista di cognomi è ${lastName.indexOf(userLastName) + 1}`

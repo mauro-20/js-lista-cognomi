@@ -1,0 +1,10 @@
+*{
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+  background-image: url('https://img.freepik.com/premium-photo/top-view-wooden-background_23-2148234292.jpg?size=626&ext=jpg');
+}
+
+#user-last-name{
+  margin-top: 100px;
+}
